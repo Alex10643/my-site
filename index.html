@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Реестр смешнявых котоф</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffebff;
+        }
+		nav {
+            background-color: #4A148C;
+			border-radius: 20px;
+			border-bottom: 2px solid #4A148C;
+			
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+			justify-content: center;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #4A148C;
+        }
+        p {
+            text-align: justify;
+            margin: 20px;
+        }
+        a {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 15px;
+            background-color: #FF4081;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #FF80AB;
+			text-decoration: underline;
+        }
+        .cat-block {
+            margin: 20px 0;
+            padding: 15px;
+            border: 2px solid #4A148C;
+            border-radius: 10px;
+            background-color: #fce4f1;
+			overflow: hidden;
+        }
+        .cat-img {
+            float: left;
+            width: 20%;
+            height: auto
+            margin: 10px;
+			margin-right: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #4A148C;
+        }
+		navFooter {
+            background-color: #fce4f1;
+			border-radius: 20px;
+			border-bottom: 2px solid #4A148C;
+        }	
+        .author-img {
+            float: left;
+            width: 15%;
+            height: auto;
+            margin-right: 30px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+       
+    <div class="container">
+        <h1>Реестр смешнявых котоф</h1>
+		
+		<nav>
+        <ul>
+            <li><a href="#about">О сайте</a></li>
+            <li><a href="#author">Об авторе</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+        </nav>
+	
+        <h2 id="about" style="border-top: 2px solid #4A148C;">О сайте</h2>
+        <p>
+            Сайт <b>"Реестр смешнявых котоф"</b> сделан для изучения web-технологии, языка HTML и просто для приколдесов.
+        </p>
+        
+        <p>
+            Сайт представляет собой статичную веб-страницу, написанную на языке HTML (в будущем будут задействованы другие языки).
+			Пользовательский интерфейс состоит из контейнера, содержащего информацию о сайте, списка котов, данных об авторе и ссылок для контакта с ним.
+        </p>
+      
+        <p style="border-bottom: 2px solid #4A148C;">
+            В бэкэндовой части задействованы стили, контент страницы, навигация и футер.
+        </p>		
+		
+        <div class="cat-block">
+            <h3><b>Кот-палка (не обращайте внимание на кусочек смайлика слева)</b></h3>
+			<img src="site_folder/cat1.jpeg"  class="cat-img" />
+			<p> Лютейщий котямба, умеющий искуссно маскироваться под палку, оставаясь незаметным для хищников. А еще он прикольный.</p>
+		</div>
+		
+		<div class="cat-block">
+            <h3><b>Лизун</b></h3>
+			<img src="site_folder/cat2.jpg" class="cat-img" />
+			<p> 
+			    Невероятно опасный преступник, которого боялись даже чеченские ОПГ.
+				Ответственен за ограбление девяти зоомагазинов (стырил корм), дрался с двумя котами, шипел на огурец и садился на коленки к хозяину
+				в самый неподходящий момент. Также в его послужной список входит ааааа он пришел за мной помогиаопкпукпуауулщлошсиг
+			</p>
+        </div>
+
+		<div class="cat-block">
+            <h3><b>Тупокот</b></h3>
+			<img src="site_folder/cat3.jpg" class="cat-img" />
+			<p>          
+			    Имеет только два нейрона, отвечающих за пускание слюней и прекращение процесса слюнотечения.
+			</p>
+        </div>
+
+		<div class="cat-block">
+            <h3><b>Джентельмен</b></h3>
+			<img src="site_folder/cat4.png" class="cat-img" />
+			<p> 
+			    Кот маминой подруги - своими лапками поднял промышленность, культурно маякуает,да и просто комсомол и спортсмен.
+			</p>
+        </div>
+		
+		<h1>Реестр будет пополняться в будуещем</h1>
+		
+		<div class="footer" id="contact" >
+	        <h3><b>Made by Sanchoys©</b></h3>
+	
+		    <a href="mailto:alex.shalimovlol@gmail.com"> Связь с автором </a>
+	        <a href="https://vk.com/id704607419"> Страница ВК автора </a>
+		
+		
+		    <div class="cat-block" id="author">
+			    <h3><b>Об авторе</b></h3>
+				<img src="site_folder/Author.png" class="cat-img" />
+                <p>Sanchoys© — (Шалимов Александр Владимирович) студент ФКН ИСиТ первого курса, первой группы, по совместительству
+				безжалостный истребитель пельменей и разрушитель снеговиков.
+				</p>
+				
+				<p style="text-align: right;">
+				    Почта для связи с автором: alex.shalimovlol@gmail.com
+				</p>
+			</div>	
+		
+		</div>	
+	</div>
+	<p style=" text-size: 3px; text-align: left; margin: 0;"> Copyright© lololololololololol </p>	
